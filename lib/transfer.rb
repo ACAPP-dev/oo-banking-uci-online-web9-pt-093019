@@ -19,6 +19,6 @@ class Transfer
       self.sender.balance -= amount
       self.receiver.balance += amount
     else
-
+    end
   end
 end
