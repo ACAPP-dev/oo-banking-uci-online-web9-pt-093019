@@ -3,9 +3,9 @@ require 'pry'
 class Transfer
   # your code here
 
-  attr_accessor :amount
+  attr_accessor :sender, :amount
 
-  def initialize(to, from, amount)
-    @to, @from, @amount = to, from, amount
+  def initialize(to, sender, amount)
+    @to, @sender, @amount = to, sender, amount
   end
 end
